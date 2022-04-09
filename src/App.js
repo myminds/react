@@ -21,8 +21,6 @@ function App() {
 
 export default App;
 
-
-
 const About = () => {
   return <div>About</div>
 }
