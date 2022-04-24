@@ -42,7 +42,7 @@
 .middle-div .level {
     /* background: #fff; */
     border-radius: 51px;
-    background: #ff07518f;
+    background: #07ffe8f5;
     width: 60px;
     height: 60px;
     padding: -5px;
@@ -58,14 +58,19 @@
     margin: -14px;
 }
 
+
 .middle-div .level1 svg {
     margin: -19px -1px 0px -19px;
+}
+
+.middle-div .level1:hover {
+    background-color: #213a35;
 }
 
 
 .container-card {
     margin: 5px;
-    border: 1px solid #cfcccc;
+    border: 1px solid #c9eae3f0;
     border-radius: 3px;
     padding: 5px;
     width: 50%;
@@ -89,22 +94,24 @@
 
 .container-card .cardItem-rupee {
     font-size: 18px;
-    color: #534d4d;
+    color: #084d06;
 }
 
 .container-card .cardItem-name {
     font-size: 14px;
-    color: #5f3f3f;
+    color: #000000b8;
+    font-weight: 600;
 }
 
 
 .container-card .address {
     font-size: 10px;
-    color: #b2b8b7;
+    font-weight: 600;
+    color: #00a884;
 }
 
 #header {
-    background-color: #00a884;
+    background-color: #00a884; 
     position: fixed;
     top: 0;
     width: 100%;
@@ -114,10 +121,70 @@
 }
 
 .imgWhite img,
-.imgWhite svg {
+.imgWhite svg, 
+.imgWhite .textc
+{
     color: #fff;
+}
+
+.imgWhite svg:hover {
+    color: rgb(31, 87, 34);
 }
 
 .main-div-container {
     transition: right 0.5s;
+}
+
+.first-space-screen {
+    width: 100%;
+    height: 100%;
+    background: #2a7c7c;
+    position: absolute;
+}
+
+.first-space-screen  .splace{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 400;
+    align-items: center;
+    height: 100%;
+}
+
+.login-mob {
+    position: relative;
+}
+
+
+.login-mob svg{
+    position: absolute;
+    background: #0f3c3cc2;
+    right: 0;
+    height: 48px;
+}
+
+.logo .logo-svg {
+    height: 100px;
+    width: 100px;
+}
+
+.login-line {
+    border-bottom: 1px solid #34a1a1;
+    border-radius: 50%;
+    height: 112px;
+    width: 107%;
+    position: absolute;
+    left: -11px;
+    z-index: 9999;
+    background: #2a7c7c;
+}
+
+.login-bottom {
+    background: #366a6a;
+    height: 144px;
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
